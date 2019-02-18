@@ -29,9 +29,9 @@ and open the template in the editor.
                     </tr>
                     
                     <tr th:each="customer : ${customers}">
-                        <th th:text="${customer.firstName}" />
-                        <th th:text="${customer.lastName}" />
-                        <th th:text="${customer.email}" />
+                        <td th:text="${customer.firstName}" />
+                        <td th:text="${customer.lastName}" />
+                        <td th:text="${customer.email}" />
                     </tr>
                     
                     
